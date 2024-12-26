@@ -1,7 +1,6 @@
 package acadeny.devdojo.maratonajava.introducao;
 import java.util.Scanner;
 
-
 public class Exercico01Gpt {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
@@ -11,7 +10,6 @@ public class Exercico01Gpt {
         int maior = 0;
         int menor = 0;
         int pessoas = 0;
-
 
         while (true) {
             System.out.print("Informe sua idade: ");
@@ -43,12 +41,7 @@ public class Exercico01Gpt {
                     System.out.println("Opção Inválida! Resposta deve ser [S] ou [N]!");
 
                 }
-
             }
-
-
-
         }
-
     }
 }
