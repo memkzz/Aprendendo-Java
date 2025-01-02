@@ -15,5 +15,25 @@ public class Calculadora {
     }
 
 
+    public int numerosSomaVarArgs(int... numbers){
+        int soma = 0;
+        for (int i:numbers){
+            soma += i;
+        }
+        return soma;
+    }
+    public int numeroMultiplicaVarArgs(int... numbers){
+        int multiplies = 1;
+        for (int i: numbers){
+            multiplies *= i;
+        }
+        return multiplies;
+    }
+    public void printResults(){
+        System.out.println(numerosSomaVarArgs());
+        System.out.println(numeroMultiplicaVarArgs());
+    }
+
+
 
 }
