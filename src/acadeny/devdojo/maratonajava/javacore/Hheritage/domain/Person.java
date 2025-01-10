@@ -4,8 +4,18 @@ public class Person {
     protected String name;
     protected String cpf;
     protected Address address;
+    static {
+        System.out.println("Inside the static person block");
+    }
+    {
+        System.out.println("Inside the person initialization block 1");
+    }
+    {
+        System.out.println("Inside the person initialization block 2");
+    }
 
     public Person(String name, String cpf) {
+        System.out.println("Inside the builders person");
         this.name = name;
         this.cpf = cpf;
     }

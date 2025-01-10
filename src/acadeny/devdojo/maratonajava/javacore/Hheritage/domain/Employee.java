@@ -3,9 +3,20 @@ package acadeny.devdojo.maratonajava.javacore.Hheritage.domain;
 public class Employee extends Person {
     private double salary;
 
+    static {
+        System.out.println("Inside the static employee block");
+    }
+    {
+        System.out.println("Inside the employee initialization block 1");
+    }
+    {
+        System.out.println("Inside the employee initialization block 2");
+    }
+
 
     public Employee(String name, String cpf){
         super(name, cpf);
+        System.out.println("Inside builder employee");
     }
 
     public Employee(String name, String cpf, double salary) {
