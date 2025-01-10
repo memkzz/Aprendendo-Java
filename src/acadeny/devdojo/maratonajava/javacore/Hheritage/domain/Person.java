@@ -5,6 +5,10 @@ public class Person {
     protected String cpf;
     protected Address address;
 
+    public Person(String name, String cpf) {
+        this.name = name;
+        this.cpf = cpf;
+    }
 
     public void print(){
         System.out.println(this.name);

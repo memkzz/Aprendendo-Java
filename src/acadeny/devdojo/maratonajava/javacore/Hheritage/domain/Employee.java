@@ -3,16 +3,23 @@ package acadeny.devdojo.maratonajava.javacore.Hheritage.domain;
 public class Employee extends Person {
     private double salary;
 
-    public Employee(double salary) {
+
+    public Employee(String name, String cpf){
+        super(name, cpf);
+    }
+
+    public Employee(String name, String cpf, double salary) {
+        super(name, cpf);
         this.salary = salary;
     }
+
     public void paymentRelatory(){
         System.out.println("Pagamendo de:"+this.name+" PAGO! "+this.salary+" VALOR");
     }
 
     public void print(){
         super.print();
-        System.out.println(this.salary);
+        System.out.println("Salary: "+this.salary);
     }
 
     public double getSalary() {

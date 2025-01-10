@@ -10,14 +10,10 @@ public class HerancaTest {
         address.setCep("553-32");
         address.setRua("Rua Vinte");
 
-        Person person = new Person();
-        person.setName("Jorge");
-        person.setCpf("33322");
+        Person person = new Person("Jorge", "223.445.768-90");
         person.setAddress(address);
 
-        Employee employee = new Employee(2000);
-        employee.setName("Felipe");
-        employee.setCpf("223344");
+        Employee employee = new Employee("Felipe","227.413.889-05", 2000);
         employee.setAddress(address);
 
 
