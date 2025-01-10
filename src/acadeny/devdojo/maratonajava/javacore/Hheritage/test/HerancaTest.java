@@ -25,6 +25,8 @@ public class HerancaTest {
         person.print();
         System.out.println("---------");
         employee.print();
+        System.out.println("---------");
+        employee.paymentRelatory();
     }
 
 }

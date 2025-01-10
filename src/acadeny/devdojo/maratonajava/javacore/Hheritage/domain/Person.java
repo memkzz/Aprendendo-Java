@@ -1,9 +1,9 @@
 package acadeny.devdojo.maratonajava.javacore.Hheritage.domain;
 
 public class Person {
-    private String name;
-    private String cpf;
-    private Address address;
+    protected String name;
+    protected String cpf;
+    protected Address address;
 
 
     public void print(){

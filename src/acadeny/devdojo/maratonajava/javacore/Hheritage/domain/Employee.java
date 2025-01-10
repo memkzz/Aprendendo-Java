@@ -6,6 +6,9 @@ public class Employee extends Person {
     public Employee(double salary) {
         this.salary = salary;
     }
+    public void paymentRelatory(){
+        System.out.println("Pagamendo de:"+this.name+" PAGO! "+this.salary+" VALOR");
+    }
 
     public void print(){
         super.print();
