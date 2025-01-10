@@ -15,12 +15,15 @@ public class HerancaTest {
         person.setCpf("33322");
         person.setAddress(address);
 
-        Employee employee = new Employee();
+        Employee employee = new Employee(2000);
         employee.setName("Felipe");
         employee.setCpf("223344");
         employee.setAddress(address);
 
+
+
         person.print();
+        System.out.println("---------");
         employee.print();
     }
 
