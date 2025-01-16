@@ -20,6 +20,7 @@ public class Client {
         System.out.println("Name: "+this.name);
         System.out.println("Client Type: "+typeCliente);
         System.out.println("Payment Form: "+paymentType);
+        System.out.println("Discount: "+paymentType.calculateDiscount(100));
     }
 
     public String getName() {
